@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+.quadrado{
+    width: 300px;
+    height: 1000px;
+    background-color: rgb(252, 134, 0);
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.homem{
+    width: 220px;
+    height: 220px;
+    border-radius: 150px;
+    border: 8px solid orange;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.sob{
+    color: white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+.con{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.obj{
+    color: grey;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.Tit{
+    position: fixed;
+    display: flex;
+    font-size: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+}
+.tut{
+    position: fixed;
+    display: flex;
+    font-size: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.min{
+    position: fixed;
+    display: flex;
+    font-size: 18px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
